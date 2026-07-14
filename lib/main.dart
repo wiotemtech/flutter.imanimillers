@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
                 backgroundColor: Colors.green,
               ),  
               onPressed: () {
-                Get.to(() => const Register());
+                Get.to(() => const RegisterScreen());
               },
               child: const Text('Register'),
             ),
